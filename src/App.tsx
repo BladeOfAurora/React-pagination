@@ -17,17 +17,17 @@ function App() {
   // Third paginate array (end)
   const [ endPaginateInArray, setEndPaginateInArray ] = useState<number[]>([0])
 
-  // edit background color for currentPage
-  const [ activePage, setActivePage ] = useState<number>(0) // Need Add Current Page
 
   // PROPS
   // quantity of pages
   const pages: number = 50
   // currentPage for get on this page number
-  const [ currentPage, setCurrentPage ] = useState(1) // Need ADD CURRENT PROJECT
+  const [ currentPage, setCurrentPage ] = useState(1) // Need ADD CURRENT Page
 
   // END PROPS
 
+  // edit background color for currentPage
+  const [ activePage, setActivePage ] = useState<number>(currentPage)
 
   useEffect(() => {
     if (pages > 0) {
