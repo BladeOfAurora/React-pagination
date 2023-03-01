@@ -1,4 +1,4 @@
-# Pagination on React-TypScript
+# Pagination on React-TypeScript
 
 ## For run a project, use commands : yarn install -> yarn start
 
